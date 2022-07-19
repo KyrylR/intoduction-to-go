@@ -25,7 +25,7 @@ func main() {
 	fmt.Println("The sum equal: ", sum)
 
 	var (
-		lessonName = "Variavles"
+		lessonName = "Variables"
 		lessonType = "Demo"
 	)
 	fmt.Println("Lesson type: ", lessonType)

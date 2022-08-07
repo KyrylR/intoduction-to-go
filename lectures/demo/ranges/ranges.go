@@ -8,7 +8,7 @@ func main() {
 	for i, elem := range slice {
 		fmt.Println(i, elem)
 		for _, ch := range elem {
-			fmt.Printf("%q - %v - %T ", ch, ch, ch)
+			fmt.Printf("%q - %c - %v - %T ", ch, ch, ch, ch)
 		}
 		fmt.Println()
 	}
